@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.header-section{
+    background-color: #1F2937;
+    margin: -22px;
+    padding: 32px;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.header-body {
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 6px;
+   
+    margin: 0px 90px;
+}
+
+.nav-section, .header-text {
+    display: flex;
+    padding: 28px;
+    margin: 10px;
+  
+}
+
+.nav-section {
+    padding:  6px;
+    margin: 16px;
+    gap: 12px;
+    justify-content: space-between;
+    
+}
+
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+li{
+    list-style-type: none;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-placeholder{
+    display: flex;
+    padding: 18px;
+    margin:  18px 30px;
+    
+}
+
+.image {
+    background-color: #586271;
+    display: flex;
+    padding: 28px;
+    margin: 35px;
+    gap: 8px;
+    
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 9px ;
+    padding: 8px 18px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.info-body {
+    padding: 30px;
+}
+
+.info-heading {
+   display: flex;
+   justify-content: center;
+   font-weight: bold;
+   font-size: 36px; color: #1F2937;
+   
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    padding: 0px 250px;
+    gap: 10px;
+    margin:40px;
+
+}
+
+.info-images > p {
+    text-align: center;
+   padding: 12px;
+   
+}
+
+.image-items {
+    border: #3882f6 solid;
+    padding: 8px;
+    margin: 18px;
+    border-radius: 12px;
+    width: auto;
+    height: 100px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    margin: auto;
+    
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+cite{
+    display: flex;
+    font-weight: bolder;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 36px;
+    margin: 46px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.action-head{
+    font-weight: bolder;
+}
+
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+}
